@@ -12,6 +12,8 @@ def arreglos(n, k):
 A = arreglos
 
 def combinaciones(n, k):
+    if k > n or k < 0:
+    	return 0
     return factorial(n, ammount=k) / factorial(k)
 binomial = C = combinaciones
 
