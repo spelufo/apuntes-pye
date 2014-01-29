@@ -1,3 +1,5 @@
+import numpy as np
+
 ############################################## CONTEO
 
 def factorial(n, down_to=0, ammount=None):
